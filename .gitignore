@@ -1,0 +1,79 @@
+# =======================================================================
+# Environment & Secrets
+# =======================================================================
+/.env
+/.env.local
+/.env.*.local
+/config/master.key
+/config/credentials/*.key
+
+# =======================================================================
+# Rails & Ruby
+# =======================================================================
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+#(SQLite)
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-*
+
+# Storage of Active Storage
+/storage/*
+!/storage/.keep
+/public/uploads
+
+# Gems 
+/vendor/bundle
+
+# =======================================================================
+# JavaScript & Node.js
+# =======================================================================
+/node_modules
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/pnpm-debug.log*
+
+# =======================================================================
+# Vite Ruby & Assets Compiled
+# =======================================================================
+/public/vite
+/public/vite-dev
+/public/vite-test
+/public/assets
+
+# Vite Cache
+/.vite
+/tmp/cache/vite
+
+# =======================================================================
+# IDEs & System Files (Windows / VS Code / macOS)
+# =======================================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VS Code / Cursor
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =======================================================================
+# Testing & Coverage
+# =======================================================================
+/coverage
+/spec/tmp

@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  select_type: 1
+  default-selection: false
+
+two:
+  name: MyString
+  select_type: 1
+  default-selection: false
