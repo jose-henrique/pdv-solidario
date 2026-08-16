@@ -2,11 +2,19 @@
   "private": true,
   "type": "module",
   "devDependencies": {
+    "@types/react": "^19.2.17",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.23",
+    "tailwindcss": "^4.3.3",
     "vite": "^8.0.0",
     "vite-plugin-ruby": "^5.2.0"
   },
   "dependencies": {
+    "@fontsource-variable/material-symbols-outlined": "^5.3.3",
+    "@tailwindcss/postcss": "^4.3.3",
     "@vitejs/plugin-react": "^6.0.4",
-    "react": "^19.2.8"
+    "axios": "^1.19.0",
+    "react": "^19.2.8",
+    "react-hook-form": "^7.85.0"
   }
 }
