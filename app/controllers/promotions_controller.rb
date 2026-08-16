@@ -7,5 +7,10 @@ class PromotionsController < ApplicationController
   end
 
   def new
+    payment_methods = PaymentMethod.all
+
+    render inertia: "Promotions/New", props: {
+      paymentMethods: payment_methods.as_json
+    }
   end
 end
