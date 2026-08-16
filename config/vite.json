@@ -1,7 +1,17 @@
 {
   "all": {
     "sourceCodeDir": "app/javascript",
-    "watchAdditionalPaths": []
+    "watchAdditionalPaths": [
+      "app/javascript/**/*"
+    ],
+    "extensions": [
+      ".tsx",
+      ".jsx",
+      ".ts",
+      ".js",
+      ".css",
+      ".scss"
+    ]
   },
   "development": {
     "autoBuild": true,
